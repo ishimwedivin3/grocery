@@ -21,7 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         // Allow CORS requests only from your Vercel frontend
         registry.addMapping("/**") // Allow all paths
-                .allowedOrigins("https://grocery-front-ten.vercel.app") // Add your Vercel frontend URL
+                .allowedOrigins("https://grocery-front-ten.vercel.app/") // Add your Vercel frontend URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                 .allowedHeaders("*") // Allow all headers
                 .allowCredentials(true); // Allow cookies and credentials (if needed)
