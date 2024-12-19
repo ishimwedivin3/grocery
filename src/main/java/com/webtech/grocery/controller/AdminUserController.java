@@ -38,7 +38,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@CrossOrigin (origins = "https://grocery-front-ten.vercel.app/")
+@CrossOrigin (origins = "https://grocery-front-ten.vercel.app")
 @RestController
 @RequestMapping("/admin")
 public class AdminUserController {

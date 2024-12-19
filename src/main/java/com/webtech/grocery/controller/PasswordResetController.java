@@ -6,7 +6,7 @@ import com.webtech.grocery.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin (origins = "https://grocery-front-ten.vercel.app/")
+@CrossOrigin (origins = "https://grocery-front-ten.vercel.app")
 @RestController
 public class PasswordResetController {
 
