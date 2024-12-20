@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 
 
 @Entity
-@Table(name = "notification")
 public class Notification {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

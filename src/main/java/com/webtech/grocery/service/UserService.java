@@ -166,7 +166,7 @@ public class UserService {
             User adminUser = new User();
             adminUser.setUsername("admin");
             adminUser.setPassword("admin"); // Hash the password
-            adminUser.setEmail("rushingacedrick@gmail.com");
+            adminUser.setEmail("ishimwedivin2@gmail.com");
             adminUser.setRole(Role.ROLE_ADMIN); // Ensure Role is properly defined
 
             userRepository.save(adminUser);

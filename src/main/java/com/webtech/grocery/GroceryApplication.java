@@ -7,20 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GroceryApplication {
 
 	public static void main(String[] args) {
-
-        SpringApplication.run(GroceryApplication.class, args);
-
-
-
-		
-
-
-
-
-
-
-
-
+		SpringApplication.run(GroceryApplication.class, args);
 	}
 
+	
 }

@@ -3,8 +3,8 @@ package com.webtech.grocery.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "grocery")
-public class Grocery {
+@Table(name = "furniture")
+public class Furniture {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -5,8 +5,7 @@ import com.webtech.grocery.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
-@CrossOrigin (origins = "https://grocery-front-ten.vercel.app")
+@CrossOrigin(origins = "https://webtechcontent.vercel.app") // Allow requests from the specific URL
 @RestController
 @RequestMapping("/notifications")
 public class NotificationController {
